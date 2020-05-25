@@ -11,6 +11,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EurekaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaApplication.class);
+        SpringApplication.run(EurekaApplication.class, args);
     }
 }
